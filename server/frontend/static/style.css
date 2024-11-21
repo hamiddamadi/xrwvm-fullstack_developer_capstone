@@ -1,3 +1,7 @@
+body {
+  width: 100%;
+}
+
 img{
   width: 60%;
   align-self: center;
@@ -123,4 +127,32 @@ img{
     border-radius:50px;
     text-align:center;
     box-shadow: 2px 2px 3px #999;  
+}
+
+.contact-container {
+  width: 100%;
+  padding: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact img {
+  width: 50%;
 }
